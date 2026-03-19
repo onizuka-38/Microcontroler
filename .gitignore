@@ -1,0 +1,30 @@
+# Build outputs
+*.o
+*.elf
+*.hex
+*.map
+*.lst
+*.eep
+*.bin
+
+# Dependency / temporary files
+*.d
+*.tmp
+*.log
+
+# AVRDUDE artifacts
+*.avr
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# User/local env
+*.swp
+*.swo
+*~
