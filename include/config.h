@@ -1,0 +1,20 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define TEMP_ADC_CHANNEL 0
+#define FAN_PWM_MIN_DUTY 0
+#define FAN_PWM_MAX_DUTY 255
+
+#define TEMP_LOW_C 25
+#define TEMP_HIGH_C 45
+
+#define BUTTON_PIN PD2
+#define BUTTON_DDR DDRD
+#define BUTTON_PORT PORTD
+#define BUTTON_PIN_REG PIND
+
+#define STATUS_LED_PIN PB5
+#define STATUS_LED_DDR DDRB
+#define STATUS_LED_PORT PORTB
+
+#endif
